@@ -1,5 +1,5 @@
 
-## 📌 Overview
+## Overview
 
 This project is a small WordPress demo site built for businesses and individuals to help them with their tech problems. It demonstrates theme customization via a child theme, content modeling with a Custom Post Type (CPT), clean structure, basic security/performance optimizations, and responsive design.
 
@@ -33,7 +33,7 @@ Import the demo site (see instructions below).
 
 ---
 
-## 🔄 Importing the Demo Site
+## Importing the Demo Site
 
 To restore the full demo site using **All-in-One WP Migration**:
 
@@ -55,7 +55,7 @@ To restore the full demo site using **All-in-One WP Migration**:
 
 ---
 
-## 📦 Plugins Used
+## Plugins Used
 
 * **All-in-One WP Migration** – for exporting/importing the site.
 * **Child Theme Configurator** – for generating the Astra child theme.
@@ -71,11 +71,11 @@ To restore the full demo site using **All-in-One WP Migration**:
 
 ---
 
-## 📑 Site Structure
+## Site Structure
 
 ### Pages
 
-1. **Home** – Hero banner, intro text, service highlights, and a “Let’s Talk” call-to-action.
+1. **Home** – intro text, service highlights, and a “Let’s Talk” call-to-action.
 2. **Services We Provide** – Lists 3 services: IT Consulting, Web Development, and Optimization. Includes a “Why Choose Us” section.
 3. **About Us** – Contains “Our Mission”, “Our Story”, and a highlighted quote.
 4. **Contact Us** – WPForms contact form with validation (required fields + email format). Includes a short prompt to reach out.
@@ -88,7 +88,7 @@ To restore the full demo site using **All-in-One WP Migration**:
 
 ---
 
-## 🛡️ Security
+## Security
 
 * **Pretty permalinks enabled** (`/post-name/`).
 * **Login attempt limiting** via *Limit Login Attempts Reloaded*.
@@ -96,7 +96,7 @@ To restore the full demo site using **All-in-One WP Migration**:
 
 ---
 
-## 🚀 Performance & Accessibility
+## Performance & Accessibility
 
 * **Caching:** WP Fastest Cache.
 * **Image compression:** Optimized images via Starter Templates + Elementor.
@@ -106,7 +106,7 @@ To restore the full demo site using **All-in-One WP Migration**:
 
 ---
 
-## 🧩 Architecture Notes & Trade-Offs
+## Architecture Notes & Trade-Offs
 
 * **Astra** was chosen as the base theme due to its lightweight nature and compatibility with Elementor.
 * A **child theme (Hangula Child Theme)** was used to safely override styles and add CPT templates.
@@ -116,7 +116,7 @@ To restore the full demo site using **All-in-One WP Migration**:
 
 ---
 
-## 📷 Lighthouse Scores
+## Lighthouse Scores
 
 Home Page (Desktop):
 
